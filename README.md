@@ -1,2 +1,3 @@
 # python
-Scrypt Python
+Мои скрипты на Питоне
+1. Пинг
