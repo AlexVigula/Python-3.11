@@ -4,9 +4,14 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram import F
 from aiogram.types import Message
-###########
-Функционал загрузки изображения в телеграмм бот с искользованием библиотеки aiogramm
-###########
+
+########################################################
+#                                                       #
+#    Функционал загрузки изображения в телеграмм        #
+#        бот с искользованием библиотеки aiogramm       #
+#         dev Alex Vigula      tg @gunsxp               #
+#                                                       #
+#########################################################
 API_TOKEN = 'Ваш токен'
 
 # Инициализация бота и диспетчера
