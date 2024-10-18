@@ -12,13 +12,13 @@ dp = Dispatcher()
 async def send_welcome(message: types.Message):
     kb = [
         [
-            types.KeyboardButton(text="Сможешь повторить это?"),
-            types.KeyboardButton(text="А это?")
+            types.KeyboardButton(text="Я кнопка 1"),
+            types.KeyboardButton(text="Я кнопка 2")
         ],
     ]
     keyboard = types.ReplyKeyboardMarkup(keyboard=kb, resize_keyboard=True)  # Добавлено resize_keyboard для удобства
 
-    await message.reply("Привет!\nЯ Эхобот от Skillbox!\nОтправь мне любое сообщение, а я тебе обязательно отвечу.", reply_markup=keyboard)
+    await message.reply("Привет!\nЯ Эхобот от Vigula Alex!\nОтправь мне любое сообщение, а я тебе обязательно отвечу.", reply_markup=keyboard)
 
 if __name__ == '__main__':
     # Запускаем бота 
